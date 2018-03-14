@@ -1,0 +1,159 @@
+* {box-sizing: border-box}
+
+
+
+/* Tab selection column style */
+
+div.tab {
+	position:relative;
+    float: left;
+	margin-left: 2%;
+    border: none;
+    background-color: #FFFFFF;
+    width: 12.3%;
+    height: 49.8%;
+	margin-top: 8%;
+	right: -2px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    background-color: #ccefff;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+	color:white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+	border: 1px solid #FFFFFF;
+	border-right:2px solid #33bbff;
+	
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #70d0ec;
+	border: 6px solid #70d0ec;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #FFFFFF;
+	border-left: 2px solid #33bbff;
+	border-top: 2px solid #33bbff;
+	border-bottom: 2px solid #33bbff;
+	border-right: 2px solid #FFFFFF;
+	box-shadow: -3px 3px 5px #888888;
+	z-index: 1; position:relative;
+	color: #33bbff;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    float: right;
+	margin-right: 2%;
+    padding: 0px 12px;
+    border: 2px solid #33bbff;
+	background-color: #FFFFFF;
+    width: 83.7%;
+	border-radius: 15px;
+    height: 80%;
+	margin-top: 2%;
+	box-shadow: -3px 3px 5px #888888;
+	border-collapse: collapse;
+    z-index: 0; position:relative;
+}
+
+/* Style for the buttons */
+.selected_btn
+{
+    border:none;
+    text-decoration:none;
+    font-family:helvetica;
+	background-color: #008CBA;
+	box-shadow: 2px 2px 3px #666;
+	transition: 0.35s;
+	padding: 10px 24px;
+	font-size: 16px;
+    color:white !important; 
+}
+
+
+/*--------------Style for buttons when pointer is hover them--------------------*/
+.selected_btn:hover
+{
+    border: 2px solid #008CBA;
+    text-decoration:none;
+    font-family:helvetica;
+	background-color: #008CBA;
+	box-shadow: 2px 2px 3px #666;
+	padding: 10px 24px;
+	font-size: 16px;
+    color:white !important;            
+}
+
+/*--------------Primary division of the content in the Live Tab--------------*/
+
+#primary {
+   width: 100%;
+}
+
+.leftcolumn {
+   margin-left: 5%;
+   float: left;
+   text-align: left;
+   width: 70%;
+} 
+
+.rightcolumn {
+   float: right;
+   text-align: left;
+   width: 25%;
+}
+
+/*Secondary left division of the content in Live Tab. Can also be used to divide in 2 every part that it is wanted */
+.rightcolumn50{
+   float: right;
+   text-align: left;
+   width: 50%;
+} 
+
+.leftcolumn50{
+   float: left;
+   text-align: left;
+   width: 50%;
+} 
+
+/*--------------Secondary right division of the content in Live Tab.--------------*/
+
+.rightcolumn_son_1 {
+   float: left;
+   text-align: center;
+   width: 50%;
+   margin-top: 15%;
+}
+
+.rightcolumn_son_2 {
+   float: right;
+   text-align: center;
+   width: 50%;
+}
+
+/*---------------------------Division in "About us" tab --------------------------*/
+
+.leftside {
+   float: left;
+   width: 50%;
+   text-align: left;
+}
+.rightside {
+   float: right;
+   width: 50%;
+   text-align: center;
+}

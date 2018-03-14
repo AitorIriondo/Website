@@ -1,0 +1,32 @@
+/*This file loads the style for the website*/
+@import url("background.css");
+
+/* Add the fonts for the headings, paragraphs... */
+@import url("font.css");
+
+/* Add the style for the tabs */
+@import url("tabstyle.css");
+
+/* Menu to manage the devices */
+@import url("devices.css");
+
+/* Menu to manage the devices */
+@import url("checkradio.css");
+
+
+	#placeholder .button {
+		position: absolute;
+		cursor: pointer;
+	}
+
+	#placeholder div.button {
+		font-size: smaller;
+		color: #999;
+		background-color: #eee;
+		padding: 2px;
+	}
+	.message {
+		padding-left: 50px;
+		font-size: smaller;
+	}
+

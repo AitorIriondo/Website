@@ -1,0 +1,71 @@
+
+
+/* Style for the buttons */
+.selected_btn {
+    border:none;
+    text-decoration:none;
+    font-family:helvetica;
+	background-color: #008CBA;
+	box-shadow: 2px 2px 3px #666;
+	transition: 0.35s;
+	padding: 10px 24px;
+	width:160px;
+	font-size: 16px;
+    color:white !important; 
+}
+
+.selected_btn:hover {
+    border:none;
+    text-decoration:none;
+    font-family:helvetica;
+	width:160px;
+	background-color: #33ccff;
+	box-shadow: 2px 2px 3px #666;
+	padding: 10px 24px;
+	font-size: 16px;
+    color:white !important;            
+}
+
+input[type=submit] {
+    border:none;
+    text-decoration:none;
+    font-family:helvetica;
+	background-color: #008CBA;
+	box-shadow: 2px 2px 3px #666;
+	transition: 0.35s;
+	padding: 10px 24px;
+	font-size: 16px;
+    color:white !important; 
+}
+
+/*     border: 2px solid #008CBA; */
+input[type=submit]:hover {
+    border: none;
+    text-decoration:none;
+    font-family:helvetica;
+	background-color: #33ccff;
+	box-shadow: 2px 2px 3px #666;
+	padding: 10px 24px;
+	font-size: 16px;
+    color:white !important;            
+}
+
+/* Style to divide the Live tab in piecharts and linecharts */
+#primary {
+   width: 100%;
+}
+
+ td, th{
+    border-bottom: 1px solid #ddd;
+	background-color: #ffffff;
+	box-shadow: 1px  #666;
+	padding: 15px 10px 15px 10px;
+	font-size: 16px;
+	color: #33bbff;
+}
+
+table {
+	box-shadow: 2px 2px 2px 2px #666;
+	background-color: #ffffff;
+	text-align: center;
+}
